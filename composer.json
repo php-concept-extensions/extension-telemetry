@@ -1,7 +1,6 @@
 {
     "name": "php-concept/extension-telemetry",
     "description": "Concept Telemetry extension — in-request collector",
-    "version": "1.0.0",
     "type": "library",
     "license": "MIT",
     "autoload": {
