@@ -1,6 +1,6 @@
 {
     "name": "php-concept/extension-telemetry",
-    "description": "Concept Telemetry extension — in-request collector",
+    "description": "Concept Telemetry extension \u2014 in-request collector",
     "type": "library",
     "license": "MIT",
     "autoload": {
@@ -13,5 +13,16 @@
         "php-concept/core-2": "^1.0",
         "league/container": "^5.1",
         "monolog/monolog": "^3"
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
+        }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^11"
+    },
+    "scripts": {
+        "test": "vendor/bin/phpunit"
     }
 }
